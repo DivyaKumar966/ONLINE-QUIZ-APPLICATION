@@ -1,0 +1,59 @@
+body {
+    margin: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logincard {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: dodgerblue;
+    margin-bottom: 20px;
+    font-family: system-ui, sans-serif;
+    font-size: xx-large;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 280px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+form {
+    text-align: left;
+    margin-left: 20px;
+}
